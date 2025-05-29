@@ -19,7 +19,6 @@ p{
 }
 
 button{
-    color: blue;
     background-color: blueviolet;
 }
 
@@ -30,7 +29,7 @@ body{
 /* 2. universal selector */
 
 *{
-    /* color: blue; */
+    font-family: 'Times New Roman';
 }
 
 #headone{
@@ -112,4 +111,88 @@ a{
     
     font-size:15px;
     line-height: 15px;
+}
+
+h1{
+    text-align: center;
+    text-transform: capitalize;
+}
+
+outer{
+    font-size: 25px;
+}
+
+inner{
+   font-size: 25px;
+}
+/* box elements */
+#hei{
+    height: 50px;
+    background-color: blueviolet;
+}
+
+#wei{
+    width: 50px;
+    background-color: blueviolet;
+}
+
+#bor{
+    border-width: 2px;
+    border-style: dotted;
+    border-color: black;
+    text-align: center;
+}
+/* border elements */
+#div1{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    background-color: blueviolet;
+    border-radius: 10px;
+}
+#div2{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    background-color: blueviolet;
+    border-radius: 50px;  /*circle*/
+
+}
+#div3{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    background-color: blueviolet;
+    border-radius: 25px;
+
+}
+/* padding and margin */
+#pad{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    background-color: blueviolet;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /* padding:20px ==> gives 20px in 4 directions top right bottom left */
+    /* padding:20px 30px 40px 50px ==> gives diff padding in diff directions */
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+/* block and inline elements
+    block elements like div,h tags take more space than required
+    inline elements like button , span takes only required space
+    lets convert inline to block and vice versa */
+#block{
+    background-color: pink;
+    display: inline;
+}
+
+button{
+    display: block;
 }
