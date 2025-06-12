@@ -21,10 +21,10 @@ p{
 button{
     background-color: blueviolet;
 }
-
+/* 
 body{
     background-color: peru;
-} 
+}  */
 
 /* 2. universal selector */
 
@@ -196,3 +196,5 @@ inner{
 button{
     display: block;
 }
+
+
